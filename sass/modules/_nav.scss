@@ -1,0 +1,17 @@
+
+
+nav{
+    background: green;
+
+    @include roundCorners(30px);
+
+    li{
+        font-style: italic;
+        @include roundCorners(10px);
+        background: purple;
+
+        a{
+            color:white;
+        }
+    }
+}

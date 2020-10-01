@@ -1,0 +1,7 @@
+@mixin roundCorners($radius){
+    border-radius: $radius;
+}
+
+@mixin padding($padding){
+    padding: $padding;
+}
